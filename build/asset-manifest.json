@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/MockShoppingWebsite/static/css/main.3f307313.chunk.css",
+    "main.js": "/MockShoppingWebsite/static/js/main.b440f030.chunk.js",
+    "main.js.map": "/MockShoppingWebsite/static/js/main.b440f030.chunk.js.map",
+    "runtime-main.js": "/MockShoppingWebsite/static/js/runtime-main.fc415d32.js",
+    "runtime-main.js.map": "/MockShoppingWebsite/static/js/runtime-main.fc415d32.js.map",
+    "static/js/2.828d2df2.chunk.js": "/MockShoppingWebsite/static/js/2.828d2df2.chunk.js",
+    "static/js/2.828d2df2.chunk.js.map": "/MockShoppingWebsite/static/js/2.828d2df2.chunk.js.map",
+    "index.html": "/MockShoppingWebsite/index.html",
+    "static/css/main.3f307313.chunk.css.map": "/MockShoppingWebsite/static/css/main.3f307313.chunk.css.map",
+    "static/js/2.828d2df2.chunk.js.LICENSE.txt": "/MockShoppingWebsite/static/js/2.828d2df2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fc415d32.js",
+    "static/js/2.828d2df2.chunk.js",
+    "static/css/main.3f307313.chunk.css",
+    "static/js/main.b440f030.chunk.js"
+  ]
+}
