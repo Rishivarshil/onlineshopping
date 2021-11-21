@@ -1,6 +1,5 @@
-import React from 'react'
 
-const product_card = [
+const cproduct_card = [
     {
         id: 1,
         product_name: "Mock Product 1",
@@ -17,5 +16,5 @@ const product_card = [
     //set up database like this
 ]
 
-export default product_card;
+export default cproduct_card;
 

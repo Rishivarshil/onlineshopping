@@ -1,16 +1,16 @@
 import React from 'react';
-import './NavBar.scss';
+import '/Users/rishivarshilnelakurti/website/client/onlineshopping/src/NavBar.scss';
 
 const Navbar = () => {
   return (
     <>
       <div class = "body"> 
-          <a href="/Watches" class="Link">Watches</a>
+          <a href="/AWatches" class="Link">Watches</a>
           <div class = "link">
-          <a href="/Electronics">Electronics</a>
+          <a href="/AElectronics">Electronics</a>
           </div>
           <div class = "link">
-          <a href="/Other">Other</a>
+          <a href="/AOther">Other</a>
           </div>
       </div>
     </>

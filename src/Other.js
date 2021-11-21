@@ -1,21 +1,19 @@
 import React from 'react';
 import './App.scss';
 import Header from "./components/header";
-import WMainContent from "./components/WmainContent";
+import OMainContent from "./components/OmainContent";
 import Footer from "./components/footer";
 import NavBar from "./NavBar.js";
 
-function Watches() {
+function Electronics() {
     return (
-        
         <div className="container">
           <Header/>
           <NavBar/>
-          <WMainContent/>
+          <OMainContent/>
           <Footer/>
         </div>
-        
     );
 }
 
-export default Watches;
+export default Electronics;

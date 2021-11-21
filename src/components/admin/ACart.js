@@ -1,17 +1,12 @@
 import React from 'react';
-import './Cart.scss';
-import cproduct_card from './testing';
+import '/Users/rishivarshilnelakurti/website/client/onlineshopping/src/Cart.scss';
+import cproduct_card from '/Users/rishivarshilnelakurti/website/client/onlineshopping/src/testing';
+  
 
-let idk = cproduct_card;
 
-function Cart() {
-    const deleteItem = item => {
-        idk = idk.filter(e => e !== item);
-        console.log(idk);
-        console.log("called");
-    }
+function ACart() {
     const listItems = cproduct_card.map((item)=>
-        
+   
         <div key={item.id}>
             {item.id % 2 !== 0 &&  <li class="items odd">
                 <div class="infoWrap"> 
@@ -23,7 +18,7 @@ function Cart() {
                         <p>{item.price}</p>
                     </div>   
                     <div class="cartSection removeWrap">
-                        <a onClick={deleteItem(item.id)} href="#" class="remove">x</a>
+                        <a href="#" class="remove">x</a>
                     </div>        
                 </div>
             </li>}
@@ -37,7 +32,7 @@ function Cart() {
                         <p>{item.price}</p>
                     </div>   
                     <div class="cartSection removeWrap">
-                        <a onClick={deleteItem(item.id)} href="#" class="remove">x</a>
+                        <a href="#" class="remove">x</a>
                     </div>        
                 </div>
             </li>}
@@ -53,7 +48,7 @@ function Cart() {
             <h1 class="projTitle"> Shopping Cart</h1>
             <div class="heading cf">
                 <h1>My Cart</h1>
-                <a href="/Watches" class="continue">Continue Shopping</a>
+                <a href="/AWatches" class="continue">Continue Shopping</a>
             </div>
             
             <div class="cart">
@@ -91,4 +86,4 @@ function Cart() {
     );
 }
 
-export default Cart;
+export default ACart;

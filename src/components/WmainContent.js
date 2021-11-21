@@ -2,8 +2,8 @@ import "./admin/remove.scss";
 import React, {useState, useEffect} from 'react'
 import Axios from 'axios';
 
-function EMainContent() {
-    
+function WMainContent() {
+
 
     
 
@@ -23,7 +23,7 @@ function EMainContent() {
             
             
                 <div className="card" key={item.id}>
-                    {item.Product_type === 2 && <div className="card_header">
+                    {item.Product_type === 1 && <div className="card_header">
                      
                         <h2 className = "txt">{item.Product_name}</h2>
                         <p>{item.Product_description}</p>
@@ -45,4 +45,4 @@ function EMainContent() {
 
 
 
-export default EMainContent;
+export default WMainContent;

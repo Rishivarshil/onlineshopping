@@ -1,0 +1,16 @@
+
+
+.remove {
+     &.removeWrap { 
+       display: none;
+     }
+}
+a:link {
+  color: #ffffff;
+  font-weight: bold;
+  padding: .5em;
+  border-radius: 100%;
+  &:hover {
+    background: #f30;
+  }
+}
